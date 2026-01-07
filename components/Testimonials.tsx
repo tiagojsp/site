@@ -48,7 +48,7 @@ const Testimonials: React.FC = () => {
   };
 
   return (
-    <section className="py-24 bg-white">
+    <section id="testimonials" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-20">
           <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('testimonials.badge')}</span>

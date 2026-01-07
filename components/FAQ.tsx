@@ -9,7 +9,7 @@ const FAQ: React.FC = () => {
   const faqs = t('faq.list', { returnObjects: true }) as Array<{ q: string, a: string }>;
 
   return (
-    <section className="py-24 bg-white">
+    <section id="faq" className="py-24 bg-white">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('faq.badge')}</span>

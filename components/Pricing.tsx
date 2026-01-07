@@ -61,7 +61,7 @@ const Pricing: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section id="pricing" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-20">
           <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('pricing.badge')}</span>
@@ -98,8 +98,8 @@ const Pricing: React.FC = () => {
               </div>
 
               <button className={`w-full py-4 rounded-xl font-bold mb-10 transition-colors ${p.is_dark
-                  ? 'bg-orange-500 hover:bg-orange-600 text-white'
-                  : 'bg-white hover:bg-slate-100 text-slate-900 border border-slate-200'
+                ? 'bg-orange-500 hover:bg-orange-600 text-white'
+                : 'bg-white hover:bg-slate-100 text-slate-900 border border-slate-200'
                 }`}>
                 {getContent(p, 'cta') as string}
               </button>

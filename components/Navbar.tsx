@@ -20,13 +20,12 @@ const Navbar: React.FC = () => {
             </a>
 
             <div className="hidden lg:flex items-center gap-8">
-              <a href="#" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors flex items-center gap-1">
-                Solutions <ChevronDown size={14} />
-              </a>
-              <a href="#" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.features')}</a>
-              <a href="#" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">Showcase</a>
-              <a href="#" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.testimonials')}</a>
-              <a href="#" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.pricing')}</a>
+              <a href="#features" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.features')}</a>
+              <a href="#how-it-works" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.howItWorks')}</a>
+              <a href="#showcase" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.showcase')}</a>
+              <a href="#testimonials" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.testimonials')}</a>
+              <a href="#pricing" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.pricing')}</a>
+              <a href="#faq" className="text-sm font-medium text-slate-600 hover:text-orange-500 transition-colors">{t('nav.faq')}</a>
             </div>
           </div>
 
@@ -52,11 +51,12 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-b border-slate-100 p-4 space-y-4 shadow-xl">
-          <a href="#" className="block py-2 text-lg font-medium text-slate-900">Solutions</a>
-          <a href="#" className="block py-2 text-lg font-medium text-slate-900">{t('nav.features')}</a>
-          <a href="#" className="block py-2 text-lg font-medium text-slate-900">Showcase</a>
-          <a href="#" className="block py-2 text-lg font-medium text-slate-900">{t('nav.testimonials')}</a>
-          <a href="#" className="block py-2 text-lg font-medium text-slate-900">{t('nav.pricing')}</a>
+          <a href="#features" className="block py-2 text-lg font-medium text-slate-900">{t('nav.features')}</a>
+          <a href="#how-it-works" className="block py-2 text-lg font-medium text-slate-900">{t('nav.howItWorks')}</a>
+          <a href="#showcase" className="block py-2 text-lg font-medium text-slate-900">{t('nav.showcase')}</a>
+          <a href="#testimonials" className="block py-2 text-lg font-medium text-slate-900">{t('nav.testimonials')}</a>
+          <a href="#pricing" className="block py-2 text-lg font-medium text-slate-900">{t('nav.pricing')}</a>
+          <a href="#faq" className="block py-2 text-lg font-medium text-slate-900">{t('nav.faq')}</a>
           <div className="py-2">
             <LanguageSelector />
           </div>

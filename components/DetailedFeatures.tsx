@@ -6,7 +6,7 @@ const DetailedFeatures: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section id="features" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('detailedFeatures.badge')}</span>

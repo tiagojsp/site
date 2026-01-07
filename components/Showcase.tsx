@@ -6,7 +6,7 @@ const Showcase: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-24 bg-slate-50 overflow-hidden">
+    <section id="showcase" className="py-24 bg-slate-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <div className="mb-20">
           <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('showcase.badge')}</span>
