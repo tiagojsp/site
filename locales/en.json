@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "features": "Features",
+        "howItWorks": "How it Works",
+        "testimonials": "Testimonials",
+        "pricing": "Pricing",
+        "faq": "FAQ",
+        "login": "Login",
+        "getStarted": "Get Started"
+    },
+    "hero": {
+        "badge": "New Feature: AI Task Assistant",
+        "title": "Manage projects with",
+        "titleHighlight": "clarity",
+        "subtitle": "Planora gives your team the focus they need to ship faster. All your tasks, docs, and goals in one beautiful dashboard.",
+        "startFree": "Start for free",
+        "viewDemo": "View demo",
+        "noCreditCard": "No credit card required"
+    },
+    "pricing": {
+        "badge": "PRICING",
+        "title": "Choose your plan",
+        "subtitle": "Start free and scale as your team grows. No hidden fees, no long-term commitments.",
+        "popular": "Most Popular",
+        "month": "month",
+        "featuresLabel": "Features"
+    },
+    "testimonials": {
+        "badge": "TESTIMONIALS",
+        "title": "Honest feedback from valued people",
+        "subtitle": "Discover how teams are transforming their productivity with Planora."
+    }
+}

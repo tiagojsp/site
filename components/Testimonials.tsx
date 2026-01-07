@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Star } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { getTestimonials } from '../services/testimonialsService';
 import { Testimonial } from '../types';
 
 const Testimonials: React.FC = () => {
+  const { t, i18n } = useTranslation();
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -29,7 +31,6 @@ const Testimonials: React.FC = () => {
   }
 
   if (testimonials.length === 0) {
-    // Fallback or empty state
     return (
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
@@ -39,16 +40,23 @@ const Testimonials: React.FC = () => {
     );
   }
 
+  const getContent = (item: Testimonial, field: 'role' | 'content') => {
+    const isPt = i18n.language === 'pt';
+    const ptField = `${field}_pt` as keyof Testimonial;
+    // @ts-ignore
+    return (isPt && item[ptField]) ? item[ptField] : item[field];
+  };
+
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-20">
-          <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">TESTIMONIALS</span>
+          <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('testimonials.badge')}</span>
           <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-6">
-            Honest feedback from valued people
+            {t('testimonials.title')}
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-            Discover how teams are transforming their productivity and collaboration with Planora's all-in-one task management dashboard.
+            {t('testimonials.subtitle')}
           </p>
         </div>
 
@@ -79,13 +87,13 @@ const Testimonials: React.FC = () => {
 
             <div>
               <p className="text-2xl md:text-3xl text-slate-700 leading-relaxed font-medium mb-10 italic">
-                “{activeTestimonial.content}”
+                “{getContent(activeTestimonial, 'content')}”
               </p>
 
               <div className="flex items-center justify-between">
                 <div>
                   <h5 className="text-xl font-bold text-slate-900">{activeTestimonial.name}</h5>
-                  <p className="text-slate-500">{activeTestimonial.role}</p>
+                  <p className="text-slate-500">{getContent(activeTestimonial, 'role')}</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="flex text-orange-400">

@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "features": "Funcionalidades",
+        "howItWorks": "Como Funciona",
+        "testimonials": "Testemunhos",
+        "pricing": "Preços",
+        "faq": "FAQ",
+        "login": "Entrar",
+        "getStarted": "Começar Agora"
+    },
+    "hero": {
+        "badge": "Nova Funcionalidade: Assistente IA",
+        "title": "Gerencie projetos com",
+        "titleHighlight": "clareza",
+        "subtitle": "A Planora dá à sua equipa o foco necessário para entregar mais rápido. Todas as tarefas, documentos e objetivos num painel elegante.",
+        "startFree": "Começar grátis",
+        "viewDemo": "Ver demo",
+        "noCreditCard": "Não requer cartão de crédito"
+    },
+    "pricing": {
+        "badge": "PREÇOS",
+        "title": "Escolha o seu plano",
+        "subtitle": "Comece grátis e escale à medida que a equipa cresce. Sem taxas escondidas, sem fidelização.",
+        "popular": "Mais Popular",
+        "month": "mês",
+        "featuresLabel": "Funcionalidades"
+    },
+    "testimonials": {
+        "badge": "TESTEMUNHOS",
+        "title": "Feedback honesto de pessoas reais",
+        "subtitle": "Descubra como as equipas estão a transformar a sua produtividade com a Planora."
+    }
+}
