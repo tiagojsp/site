@@ -1,0 +1,8 @@
+{
+  "name": "Planora - Project Management Platform",
+  "description": "A high-performance landing page for Planora, a team productivity and project management platform featuring task management, analytics, and collaboration tools.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
