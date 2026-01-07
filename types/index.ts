@@ -7,3 +7,17 @@ export interface Testimonial {
     rating: number;
     created_at?: string;
 }
+
+export interface PricingPlan {
+    id: number;
+    name: string;
+    price: number;
+    currency: string;
+    interval: string;
+    description: string;
+    cta: string;
+    features: string[];
+    is_popular: boolean;
+    is_dark: boolean;
+    created_at?: string;
+}
