@@ -9,13 +9,111 @@
         "getStarted": "Get Started"
     },
     "hero": {
-        "badge": "New Feature: AI Task Assistant",
-        "title": "Manage projects with",
-        "titleHighlight": "clarity",
-        "subtitle": "Planora gives your team the focus they need to ship faster. All your tasks, docs, and goals in one beautiful dashboard.",
-        "startFree": "Start for free",
-        "viewDemo": "View demo",
-        "noCreditCard": "No credit card required"
+        "title_prefix": "Transform your team's",
+        "title_highlight": "productivity",
+        "subtitle": "Planora is the ultimate task management platform that brings your team together, streamlines workflows, and keeps you on track.",
+        "cta_primary": "Transform my team now",
+        "cta_secondary": "Watch demo"
+    },
+    "logoBar": {
+        "subtitle": "Join 2,500+ highly productive teams"
+    },
+    "detailedFeatures": {
+        "badge": "SOLUTIONS",
+        "title_prefix": "One platform, endless",
+        "title_suffix": "possibilities",
+        "description": "Whether you're managing complex projects, tracking team performance, or fostering seamless collaboration, Planora adapts to your unique workflow needs.",
+        "feature1": {
+            "title": "From chaos to clarity: complete project control",
+            "description": "Transform scattered tasks into streamlined workflows with Planora's intelligent project management system.",
+            "list": [
+                "Kanban board perfection",
+                "Timeline visualization",
+                "Smart task dependencies",
+                "Progress tracking"
+            ]
+        },
+        "feature2": {
+            "title": "Data-driven team success: analytics that actually matter",
+            "description": "Stop guessing about team performance. Get actionable insights with comprehensive analytics dashboards.",
+            "list": [
+                "Unified team dashboard",
+                "Individual performance tracking",
+                "Workload optimization",
+                "Predictive analytics"
+            ]
+        },
+        "feature3": {
+            "title": "Connected teams, exceptional results: collaboration reimagined",
+            "description": "Break down communication silos and keep your team aligned, whether they're in the office or working remotely.",
+            "list": [
+                "Real-time collaboration",
+                "Cross-department visibility",
+                "Communication hub",
+                "Mobile-first design"
+            ]
+        }
+    },
+    "featureGrid": {
+        "badge": "FEATURES",
+        "title": "Everything your team needs to succeed",
+        "subtitle": "Powerful features designed to streamline workflows, boost productivity, and keep your team connected.",
+        "cards": [
+            {
+                "title": "Smart task management",
+                "description": "Create, assign, and track tasks with intelligent automation."
+            },
+            {
+                "title": "Real-time team collaboration",
+                "description": "Keep everyone in sync with live updates and messaging."
+            },
+            {
+                "title": "Advanced analytics & insights",
+                "description": "Make data-driven decisions with performance dashboards."
+            }
+        ],
+        "bottom": [
+            {
+                "title": "Flexible project views",
+                "description": "Visualize your work your way with multiple project views."
+            },
+            {
+                "title": "Mobile-first experience",
+                "description": "Stay productive anywhere with our responsive mobile design."
+            },
+            {
+                "title": "Enterprise security & integration",
+                "description": "Protect your data with bank-level security while seamlessly integrating."
+            }
+        ]
+    },
+    "howItWorks": {
+        "badge": "HOW IT WORKS",
+        "title": "How planora works",
+        "subtitle": "Get started in minutes and see results from day one.",
+        "steps": [
+            {
+                "title": "Create your workspace",
+                "description": "Set up your team workspace in under 2 minutes. Invite team members, create departments, and configure workflows."
+            },
+            {
+                "title": "Organize your project",
+                "description": "Create projects, break them into manageable tasks, and assign them to team members with clear deadlines and priorities."
+            },
+            {
+                "title": "Track and optimize",
+                "description": "Monitor progress in real-time, analyze performance metrics, and continuously optimize your team's productivity."
+            }
+        ]
+    },
+    "showcase": {
+        "badge": "SHOWCASE",
+        "title": "See planora in action",
+        "subtitle": "Experience the power of our intuitive interface and comprehensive features. See how real teams transform their productivity.",
+        "ui": {
+            "taskCompleted": "Task Completed",
+            "peopleOnline": "people online"
+        }
     },
     "pricing": {
         "badge": "PRICING",
@@ -29,5 +127,70 @@
         "badge": "TESTIMONIALS",
         "title": "Honest feedback from valued people",
         "subtitle": "Discover how teams are transforming their productivity with Planora."
+    },
+    "faq": {
+        "badge": "FAQ",
+        "title": "Frequently asked questions",
+        "subtitle": "Got questions? We've got answers. Find everything you need to know about Planora.",
+        "list": [
+            {
+                "q": "How long does it take to set up Planora?",
+                "a": "Setting up Planora takes less than 5 minutes. Simply create your account, invite your team members, and you're ready to start creating projects and tasks. We also offer guided onboarding tours to help you get familiar with key features."
+            },
+            {
+                "q": "Do I need a credit card to start my free trial?",
+                "a": "No, you don't need a credit card to start your 14-day free trial of the Professional Plan. You'll only need to provide billing information if you decide to continue after the trial ends."
+            },
+            {
+                "q": "Can I import my existing tasks and projects?",
+                "a": "Yes! Planora supports importing from Trello, Asana, Monday.com, and CSV files. Our import wizard makes it easy to bring all your existing work over in just a few clicks."
+            },
+            {
+                "q": "Can I change my plan at any time?",
+                "a": "Absolutely. You can upgrade, downgrade, or cancel your plan at any time from your account settings. Changes are applied immediately."
+            },
+            {
+                "q": "Can I customize workflows to match my team's process?",
+                "a": "Yes, Planora is highly customizable. You can create custom task statuses, fields, and automated workflows that perfectly match how your specific team works."
+            }
+        ],
+        "moreQuestions": "Still have a question?",
+        "sendEmail": "Send email"
+    },
+    "footer": {
+        "slogan": "Planora transforms the chaotic world of task management into an elegant, intuitive experience.",
+        "copyright": "Copyright 2024 Planora, Inc. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "product": {
+            "title": "Product",
+            "items": [
+                "Features",
+                "Solutions",
+                "Pricing",
+                "Integrations",
+                "Mobile apps"
+            ]
+        },
+        "resources": {
+            "title": "Resources",
+            "items": [
+                "Help center",
+                "Video tutorials",
+                "Community forum",
+                "Knowledge base",
+                "Templates"
+            ]
+        },
+        "company": {
+            "title": "Company",
+            "items": [
+                "About us",
+                "Careers",
+                "Blog",
+                "Press kit",
+                "Customer stories"
+            ]
+        }
     }
 }

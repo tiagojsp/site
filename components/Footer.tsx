@@ -1,12 +1,14 @@
-
 import React from 'react';
 import { Twitter, Instagram, Linkedin, Github } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   const links = {
-    Product: ['Features', 'Solutions', 'Pricing', 'Integrations', 'Mobile apps'],
-    Resources: ['Help center', 'Video tutorials', 'Community forum', 'Knowledge base', 'Templates'],
-    Company: ['About us', 'Careers', 'Blog', 'Press kit', 'Customer stories']
+    [t('footer.product.title')]: t('footer.product.items', { returnObjects: true }) as string[],
+    [t('footer.resources.title')]: t('footer.resources.items', { returnObjects: true }) as string[],
+    [t('footer.company.title')]: t('footer.company.items', { returnObjects: true }) as string[],
   };
 
   return (
@@ -21,7 +23,7 @@ const Footer: React.FC = () => {
               <span className="text-2xl font-black tracking-tighter">PLANORA</span>
             </a>
             <p className="text-slate-400 max-w-xs mb-8 leading-relaxed">
-              Planora transforms the chaotic world of task management into an elegant, intuitive experience.
+              {t('footer.slogan')}
             </p>
             <div className="flex gap-4">
               {[Twitter, Instagram, Linkedin, Github].map((Icon, i) => (
@@ -50,11 +52,11 @@ const Footer: React.FC = () => {
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm">
-            Copyright 2024 Planora, Inc. All right reserved.
+            {t('footer.copyright')}
           </p>
           <div className="flex gap-8">
-            <a href="#" className="text-slate-500 hover:text-white text-sm">Privacy Policy</a>
-            <a href="#" className="text-slate-500 hover:text-white text-sm">Terms of Use</a>
+            <a href="#" className="text-slate-500 hover:text-white text-sm">{t('footer.privacy')}</a>
+            <a href="#" className="text-slate-500 hover:text-white text-sm">{t('footer.terms')}</a>
           </div>
         </div>
       </div>

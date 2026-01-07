@@ -1,24 +1,26 @@
-
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const HowItWorks: React.FC = () => {
+  const { t } = useTranslation();
+
   const steps = [
     {
       num: "1",
-      title: "Create your workspace",
-      desc: "Set up your team workspace in under 2 minutes. Invite team members, create departments, and configure workflows.",
+      title: t('howItWorks.steps.0.title'),
+      desc: t('howItWorks.steps.0.description'),
       image: "https://picsum.photos/seed/step1/400/300"
     },
     {
       num: "2",
-      title: "Organize your project",
-      desc: "Create projects, break them into manageable tasks, and assign them to team members with clear deadlines and priorities.",
+      title: t('howItWorks.steps.1.title'),
+      desc: t('howItWorks.steps.1.description'),
       image: "https://picsum.photos/seed/step2/400/300"
     },
     {
       num: "3",
-      title: "Track and optimize",
-      desc: "Monitor progress in real-time, analyze performance metrics, and continuously optimize your team's productivity.",
+      title: t('howItWorks.steps.2.title'),
+      desc: t('howItWorks.steps.2.description'),
       image: "https://picsum.photos/seed/step3/400/300"
     }
   ];
@@ -27,12 +29,12 @@ const HowItWorks: React.FC = () => {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-20">
-          <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">HOW IT WORKS</span>
+          <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">{t('howItWorks.badge')}</span>
           <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-6">
-            How planora works
+            {t('howItWorks.title')}
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-            Get started in minutes and see results from day one.
+            {t('howItWorks.subtitle')}
           </p>
         </div>
 

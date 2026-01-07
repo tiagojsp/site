@@ -6,16 +6,114 @@
         "pricing": "Preços",
         "faq": "FAQ",
         "login": "Entrar",
-        "getStarted": "Começar Agora"
+        "getStarted": "Começar"
     },
     "hero": {
-        "badge": "Nova Funcionalidade: Assistente IA",
-        "title": "Gerencie projetos com",
-        "titleHighlight": "clareza",
-        "subtitle": "A Planora dá à sua equipa o foco necessário para entregar mais rápido. Todas as tarefas, documentos e objetivos num painel elegante.",
-        "startFree": "Começar grátis",
-        "viewDemo": "Ver demo",
-        "noCreditCard": "Não requer cartão de crédito"
+        "title_prefix": "Transforme a produtividade da",
+        "title_highlight": "sua equipa",
+        "subtitle": "A Planora é a plataforma definitiva de gestão de tarefas que une a sua equipa, simplifica fluxos de trabalho e mantém tudo no caminho certo.",
+        "cta_primary": "Transformar a minha equipa",
+        "cta_secondary": "Ver demonstração"
+    },
+    "logoBar": {
+        "subtitle": "Junte-se a mais de 2.500 equipas altamente produtivas"
+    },
+    "detailedFeatures": {
+        "badge": "SOLUÇÕES",
+        "title_prefix": "Uma plataforma, infinitas",
+        "title_suffix": "possibilidades",
+        "description": "Quer esteja a gerir projetos complexos, a monitorizar o desempenho da equipa ou a promover uma colaboração fluida, a Planora adapta-se às suas necessidades.",
+        "feature1": {
+            "title": "Do caos à clareza: controlo total do projeto",
+            "description": "Transforme tarefas dispersas em fluxos de trabalho organizados com o sistema inteligente de gestão de projetos da Planora.",
+            "list": [
+                "Perfeição no quadro Kanban",
+                "Visualização em cronograma",
+                "Dependências inteligentes",
+                "Monitorização de progresso"
+            ]
+        },
+        "feature2": {
+            "title": "Sucesso baseado em dados: métricas que importam",
+            "description": "Pare de adivinhar sobre o desempenho da equipa. Obtenha insights acionáveis com painéis de análise abrangentes.",
+            "list": [
+                "Painel de equipa unificado",
+                "Monitorização individual",
+                "Otimização de carga de trabalho",
+                "Análise preditiva"
+            ]
+        },
+        "feature3": {
+            "title": "Equipas conectadas, resultados excecionais",
+            "description": "Quebre barreiras de comunicação e mantenha a sua equipa alinhada, seja no escritório ou a trabalhar remotamente.",
+            "list": [
+                "Colaboração em tempo real",
+                "Visibilidade entre departamentos",
+                "Hub de comunicação",
+                "Design mobile-first"
+            ]
+        }
+    },
+    "featureGrid": {
+        "badge": "FUNCIONALIDADES",
+        "title": "Tudo o que a sua equipa precisa para vencer",
+        "subtitle": "Funcionalidades poderosas desenhadas para simplificar fluxos, aumentar a produtividade e manter a equipa conectada.",
+        "cards": [
+            {
+                "title": "Gestão inteligente de tarefas",
+                "description": "Crie, atribua e monitorize tarefas com automação inteligente."
+            },
+            {
+                "title": "Colaboração em tempo real",
+                "description": "Mantenha todos sincronizados com atualizações e mensagens ao vivo."
+            },
+            {
+                "title": "Análises e insights avançados",
+                "description": "Tome decisões baseadas em dados com painéis de desempenho."
+            }
+        ],
+        "bottom": [
+            {
+                "title": "Vistas flexíveis de projeto",
+                "description": "Visualize o seu trabalho à sua maneira com múltiplas vistas."
+            },
+            {
+                "title": "Experiência mobile-first",
+                "description": "Mantenha a produtividade em qualquer lugar com o nosso design responsivo."
+            },
+            {
+                "title": "Segurança e integração empresarial",
+                "description": "Proteja os seus dados com segurança de nível bancário enquanto integra perfeitamente."
+            }
+        ]
+    },
+    "howItWorks": {
+        "badge": "COMO FUNCIONA",
+        "title": "Como a Planora funciona",
+        "subtitle": "Comece em minutos e veja resultados desde o primeiro dia.",
+        "steps": [
+            {
+                "title": "Crie o seu espaço de trabalho",
+                "description": "Configure o espaço da sua equipa em menos de 2 minutos. Convide membros, crie departamentos e configure fluxos."
+            },
+            {
+                "title": "Organize o seu projeto",
+                "description": "Crie projetos, divida-os em tarefas geríveis e atribua-as com prazos e prioridades claras."
+            },
+            {
+                "title": "Monitorize e otimize",
+                "description": "Acompanhe o progresso em tempo real, analise métricas e otimize continuamente a produtividade da equipa."
+            }
+        ]
+    },
+    "showcase": {
+        "badge": "SHOWCASE",
+        "title": "Veja a Planora em ação",
+        "subtitle": "Experimente o poder da nossa interface intuitiva e funcionalidades abrangentes. Veja como equipas reais transformam a sua produtividade.",
+        "ui": {
+            "taskCompleted": "Tarefa Concluída",
+            "peopleOnline": "pessoas online"
+        }
     },
     "pricing": {
         "badge": "PREÇOS",
@@ -29,5 +127,70 @@
         "badge": "TESTEMUNHOS",
         "title": "Feedback honesto de pessoas reais",
         "subtitle": "Descubra como as equipas estão a transformar a sua produtividade com a Planora."
+    },
+    "faq": {
+        "badge": "FAQ",
+        "title": "Perguntas frequentes",
+        "subtitle": "Tem dúvidas? Temos respostas. Encontre tudo o que precisa saber sobre a Planora.",
+        "list": [
+            {
+                "q": "Quanto tempo demora a configurar a Planora?",
+                "a": "A configuração da Planora demora menos de 5 minutos. Basta criar conta, convidar a equipa e está pronto para começar. Também oferecemos guias de iniciação."
+            },
+            {
+                "q": "Preciso de cartão de crédito para o teste grátis?",
+                "a": "Não, não precisa de cartão de crédito para iniciar os 14 dias de teste do Plano Profissional. Só precisará de dados de faturação se decidir continuar."
+            },
+            {
+                "q": "Posso importar tarefas e projetos existentes?",
+                "a": "Sim! A Planora suporta importação do Trello, Asana, Monday.com e CSV. O nosso assistente de importação torna tudo muito fácil."
+            },
+            {
+                "q": "Posso mudar de plano a qualquer altura?",
+                "a": "Absolutamente. Pode fazer upgrade, downgrade ou cancelar o plano a qualquer momento nas definições. As alterações são imediatas."
+            },
+            {
+                "q": "Posso personalizar fluxos de trabalho?",
+                "a": "Sim, a Planora é altamente personalizável. Pode criar estados de tarefas, campos e automações que correspondam exatamente ao processo da sua equipa."
+            }
+        ],
+        "moreQuestions": "Ainda com dúvidas?",
+        "sendEmail": "Enviar email"
+    },
+    "footer": {
+        "slogan": "A Planora transforma o mundo caótico da gestão de tarefas numa experiência elegante e intuitiva.",
+        "copyright": "Copyright 2024 Planora, Inc. Todos os direitos reservados.",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Uso",
+        "product": {
+            "title": "Produto",
+            "items": [
+                "Funcionalidades",
+                "Soluções",
+                "Preços",
+                "Integrações",
+                "Apps móveis"
+            ]
+        },
+        "resources": {
+            "title": "Recursos",
+            "items": [
+                "Centro de ajuda",
+                "Tutoriais vídeo",
+                "Fórum da comunidade",
+                "Base de conhecimento",
+                "Modelos"
+            ]
+        },
+        "company": {
+            "title": "Empresa",
+            "items": [
+                "Sobre nós",
+                "Carreiras",
+                "Blog",
+                "Imprensa",
+                "Histórias de clientes"
+            ]
+        }
     }
 }

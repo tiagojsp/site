@@ -1,14 +1,15 @@
-
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const LogoBar: React.FC = () => {
+  const { t } = useTranslation();
   const logos = ['Logoipsum', 'Logoipsum', 'Logoipsum', 'Logoipsum', 'Logoipsum'];
-  
+
   return (
     <div className="py-12 border-b border-slate-100 bg-white">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <p className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-8">
-          Join 2,500+ highly productive teams
+          {t('logoBar.subtitle')}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all">
           {logos.map((logo, i) => (
